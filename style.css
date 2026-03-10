@@ -4,142 +4,81 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow-x: hidden;
-}
-
-#nav {
-    width: 100vw;
+.main-parent {
     height: 100px;
-    background-color: #FBEBB5 !important;
 }
 
-.home {
-    height: 24px;
-    width: 48px;
-}
-
-.shop {
-    height: 24px;
-    width: 42px;
-}
-
-.about {
-    height: 24px;
-    width: 49px;
-}
-
-.contact {
-    height: 24px;
-    width: 66px;
-}
-
-.nav-div2>img {
-    height: 28px;
-    width: 28px;
-}
-
-a {
-    height: 24px;
+.pri-parent {
+    height: 100px;
     padding: 0 !important;
+    background-color: #FBEBB5;
 }
 
-.nav-parent-div {
+.parent {
     display: flex;
+    gap: 15%;
     justify-content: end;
 }
 
-.nav-div1 {
-    height: 24px;
-    width: 430px;
-    margin-right: 200px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-div2 {
-    height: 28px;
-    width: 247px;
-    padding-right: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-/* nav-complete */
-
-.container {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100% !important;
-}
-
 .box-1 {
-    width: 100vw !important;
-    height: 900px;
+    width: 31%;
     display: flex;
     justify-content: space-between;
 }
+
+.icons {
+    width: 15%;
+    margin: 0 50px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nav-bar-completed */
 
 .box-2 {
-    width: 100vw !important;
-    height: 672px;
-    background-color: blue;
+    width: 100%;
+    height: 900px;
+    background-color: yellow;
 }
 
-.box-3 {
-    width: 100vw !important;
-    height: 777px;
-    background-color: orange;
-}
-
-.box-4 {
-    width: 100vw !important;
-    height: 799px;
+#box1 {
+    width: 100% !important;
+    height: 900px;
     background-color: pink;
 }
 
-.box-5 {
-    width: 100vw !important;
-    height: 944px;
-    background-color: violet;
-}
-
-.box-6 {
-    width: 100vw !important;
-    height: 450px;
-    background-color: red;
-}
-
-.box-7 {
-    width: 100vw !important;
-    height: 555px;
-    background-color: darksalmon;
-}
-.main{
-    /* height: 100vh ; */
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100vw !important;
-    
-}
-.sofa{
-width: 440px;
-height: 276px;
-
-background-color: orange;
-}
-
-
-
 .div-text {
-    width: 50%;
-    /* height: 100vh ; */
+    /* width: 440px !important; */
+    /* max-width: 440px !important; */
+    height: 276px;
     background-color: white;
-
 }
 
-.div-image {
 
-    width: 50%;
-    background-color: purple;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0) and (max-width: 991px) {
+    .icons {
+        display: none !important;
+    }
+
+    .box-1 {
+        width: 50%;
+    }
+
 }

@@ -12,62 +12,64 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 main-parent">
+    <div class="container-fluid pri-parent">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="nav-parent-div collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class=" navbar-nav">
-          <div class="nav-div1">
-            <a class="home nav-link active" aria-current="page" href="#">Home</a>
-            <a class="shop nav-link active" href="#">Shop</a>
-            <a class="about nav-link active" href="#">About</a>
-            <a class="contact nav-link active" href="#">Contact</a>
-          </div>
-          <div class="nav-div2">
-            <img src="./assets/account-icon.png" alt="">
-            <img src="./assets/search-icon.png" alt="">
-            <img src="./assets/heart-icon.png" alt="">
-            <img src="./assets/shopping-icon.png" alt="">
-          </div>
+      <div class="collapse navbar-collapse parent" id="navbarNavAltMarkup">
+        <div class="nav box-1">
+          <a class="nav-link text-black" href="#">Home</a>
+          <a class="nav-link text-black" href="#">Shop</a>
+          <a class="nav-link text-black" href="#">About</a>
+          <a class="nav-link text-black" href="#">Contact</a>
+        </div>
+        <div class="nav icons">
+          <img src="./assets/account-icon.png" alt="">
+          <img src="./assets/search-icon.png" alt="">
+          <img src="./assets/heart-icon.png" alt="">
+          <img src="./assets/shopping-icon.png" alt="">
         </div>
       </div>
     </div>
   </nav>
 
+  <!-- nav-bar-completed -->
 
-  <div class="container text-center">
+
+  <div class="container-fluid text-center p-0 m-0">
     <div class="col row-cols-auto justify-content-center">
-      <div class="col box-1">
+      <div class="col box-2">
+      
+        <div class="container-fluid text-center p-0 m-0">
+          <div class="row p-0 m-0" id="box1">
 
-        <div class="container text-center main">
-          <div class="row main">
-            <div class="col div-text">
-              <h1 class="sofa">
+            <div class="col p-0 m-0 div-text">
+              <!-- naya div bana kr dono ko alag alag boxes me dalna he -->
+              <h1>
                 Rocket single <br>seater
               </h1>
+                <p>Shop Now</p>
             </div>
-            <div class="col div-image">
+
+            <div class="col p-0 m-0 div-image">
+              <!-- naya div bana kr dono ko alag alag boxes me dalna he -->
               Column
             </div>
+
           </div>
         </div>
 
       </div>
-
-
-
-      <div class="col box-2">Column-2</div>
+      <!-- <div class="col box-2">Column-2</div>
       <div class="col box-3">Column-3</div>
       <div class="col box-4">Column-4</div>
       <div class="col box-5">Column-5</div>
       <div class="col box-6">Column-6</div>
-      <div class="col box-7">Column-7</div>
+      <div class="col box-7">Column-7</div> -->
     </div>
   </div>
-
 
 
 
